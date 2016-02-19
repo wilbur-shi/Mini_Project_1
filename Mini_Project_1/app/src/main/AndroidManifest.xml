@@ -14,13 +14,15 @@
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DisplayPhotoActivity" >
+        <activity android:name=".DisplayPhotoActivity"
+            android:label="Selected Photo">
+
         </activity>
-        <activity android:name=".HugeText" >
+        <activity android:name=".HugeText"
+            android:label="Huge text">
         </activity>
     </application>
 
